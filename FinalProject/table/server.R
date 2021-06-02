@@ -1,3 +1,6 @@
+# This will show the table which allows the user to
+# choose which state and county's data to especially look for.
+
 library(ggplot2)
 library(shiny)
 

@@ -1,6 +1,8 @@
+
 library(ggplot2)
 
-
+# The stakeholder likely to be someone considering a job in specific
+# area, State, and County.
 jobs <- read.csv("Jobs.csv")
 fluidPage(
     titlePanel("Data Table for Jobs"),
