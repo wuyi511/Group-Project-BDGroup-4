@@ -1,0 +1,21 @@
+We have discovered that:
+  1.Generally the unemployment rates have decreased from 2010 to 2019.
+    [The unemployment rate plot can show the trend]
+  2.The percentage of employment change has increased
+  3.The field services have the highest proportion of employers.
+
+The broaden implication:
+  As the unemployment rates have decreased from 2010 to 2019, it may continued 
+to decrease but in a slower speed (The gradient of the unemployment rates line
+becomes smaller).
+
+Data quality:
+  As our dataset was collected by the authority - Economic Research Service of
+the United States Department of Agriculture.
+  We think it gives us unbiased results as it uses the same method to collect
+data in the same category from different places. However, we do not know why
+there are some missed data for some places (e.g.Aleutian Island, Prince of Wales
+-Outer Ketchikan, etc).
+
+Future advice:
+  It can label the blanked reason for those places that did not have data.

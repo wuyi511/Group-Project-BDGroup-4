@@ -12,6 +12,18 @@ library(ggplot2)
 
 jobs <- read.csv("Jobs.csv")
 
+
+jobYear <- 
+    jobs %>% 
+    pivot_longer(contains("UnempRate"),
+                 names_to = "UnRateYear",
+                 values_to = "UnempRate") %>% 
+    mutate(UnRateYear = sub("UnempRate", "UnRate_", UnRateYear)) %>% 
+    separate(UnRateYear, into = c("UnRate", "Year")) %>% 
+    select(State,County,Year,UnempRate) %>% 
+    group_by(State) %>% 
+    arrange(Year)
+
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
     posi <- reactive({
